@@ -61,3 +61,5 @@
    cd Path-Visualizer
    npm install
    npm run dev
+2. Check it live at
+   https://path-visualizer-two.vercel.app/
