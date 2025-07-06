@@ -58,4 +58,4 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/path-finder-viz.git
+   git clone https://github.com/Shivamgoyal5/Path-Visualizer.git
