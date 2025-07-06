@@ -1,6 +1,6 @@
 # 🧭 Path Finder Viz
 
-![Path Finder Viz Screenshot](./8003985b-a50c-4ff8-833d-e763d3097e56.png)
+![Path Finder Viz Screenshot](./Screenshot%202025-07-07%20005346.png)
 
 ## 🚀 Overview
 
