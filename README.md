@@ -50,7 +50,7 @@
 
 ## 📸 Screenshot
 
-![Screenshot](./Screenshot%2025-07-07%012059.png)
+![Screenshot](./Screenshot%202025-07-07%012059.png)
 ---
 
 ## 🛠️ Getting Started
