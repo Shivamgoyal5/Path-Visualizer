@@ -165,7 +165,7 @@
 /* Grid.css */
 /* Traversal colors */
 .cell.traversal.bfs {
-    background-color: lightblue;
+    background-color: red;
 }
 
 .cell.traversal.dijkstra {
@@ -177,7 +177,7 @@
 }
 
 .cell.traversal.bds {
-    background-color: lightyellow;
+    background-color: rgb(33, 212, 232);
 }
 
 /* Path colors */

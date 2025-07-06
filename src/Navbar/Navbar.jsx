@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { useParams } from '../context/context';
-import { func1, func2, func3, func4 } from '../utils/algorithms';
+import { BFS, Dijkstra, AStar, BDS } from '../utils/algorithms';
+
 
 export default function Navbar() {
     const { mode, setmode, algo, setalgo, setres, setrun, clearBoard, grid, start, end, setgrid } = useParams();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const algorithms = [
-        { id: 'BFS', label: 'BFS', func: func1 },
-        { id: 'Dijkstra', label: 'Dijkstra', func: func2 },
-        { id: 'AStar', label: 'A*', func: func3 },
-        { id: 'BDS', label: 'BDS', func: func4 },
+       { id: 'BFS', label: 'BFS', func: BFS },
+       { id: 'Dijkstra', label: 'Dijkstra', func: Dijkstra },
+       { id: 'AStar', label: 'A*', func: AStar },
+       { id: 'BDS', label: 'BDS', func: BDS },
     ];
 
     const handleRunClick = () => {
@@ -52,6 +53,8 @@ export default function Navbar() {
                 }
             }
         });
+
+        setrun(true);
     };
 
     const getPathColor = (algorithm) => {
