@@ -50,8 +50,7 @@
 
 ## 📸 Screenshot
 
-![Screenshot](./8003985b-a50c-4ff8-833d-e763d3097e56.png)
-
+![Screenshot](./Screenshot 2025-07-07 012059.png)
 ---
 
 ## 🛠️ Getting Started
